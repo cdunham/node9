@@ -41,7 +41,7 @@ solution "node9-hosted"
         }
 
     -- GLOBAL LINK STAGE --
-    linkoptions { "-lm", "-v"}
+    linkoptions { "-lm" }
 
 
     -- GLOBAL PLATFORM SPECIFIC SETTINGS --

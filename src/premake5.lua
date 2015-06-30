@@ -49,7 +49,7 @@ project "node9"
 
         -- MAKE SURE THIS IS EXECUTED --
 	links {"dl", "m"}
-        linkoptions {"-Wl,--export-dynamic"}
+        linkoptions {"-Wl,--export-dynamic", "-Wl,-rpath,\\$$ORIGIN/../lib"}
 
     -- reset filters
     filter {} 
